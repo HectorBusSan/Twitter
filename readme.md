@@ -1,2 +1,2 @@
 # Twitter App
-App desarrollada de LaunchX
+App desarrollada en LaunchX
