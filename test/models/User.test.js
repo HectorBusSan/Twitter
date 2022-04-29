@@ -20,4 +20,9 @@ describe('Test to User',()=>{
         const user = new User(1,"HéctorBusSan","Héctor","Bio","dateCreated","lastUpdate");
         expect(user.getUsername).toBe('HéctorBusSan')
     })
+    test('Requerimeinto 4) Agregado setters',()=>{
+        const user = new User(1,"HéctorBusSan","Héctor","Bio","dateCreated","lastUpdate")
+        user.setUsername= 'HéctorBussan';
+        expect(user.username).toBe('HéctorBussan')
+    })
 })
