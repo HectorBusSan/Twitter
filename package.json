@@ -1,11 +1,14 @@
 {
   "name": "twitter",
   "version": "1.0.0",
-  "description": "Esto es un proyecto",
+  "description": "Proyecto de LaunchX",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jest/bin/jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
