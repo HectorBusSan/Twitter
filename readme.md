@@ -1,7 +1,7 @@
 # Twitter App
 App desarrollada en LaunchX
 
-usamos:
+<!-- usamos:
 git init
 git commit -m ""
 git log
@@ -15,3 +15,6 @@ git pull origin master
 si falla el anterior:
 git pull origin master
     salir con wq o q
+
+git push origin master --force
+    si modificas los commits o si no se quiere subir -->
